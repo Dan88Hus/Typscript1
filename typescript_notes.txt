@@ -15,6 +15,32 @@ interface defines types of object
   const todo = response.data as Todo; olarak belirtiyoruz ki hatalari versin
 
   function argumentlerinde typeleri belirtebiliriyoruz boylelikle funtioni baska yerde cagirdigimzda argumentlerin yerlerini karistirirsak bize type uyarisi veriyor
-  -----L2
+-----L2
+Type = Easy way to refer to the different properties + functions that a value has
+-----L3
+Type annotations = code we add to tell ts what type of value a variable will refer to
+  const apples: number = 5;
+  //Array
+  let colors: string[] = ["red","green"]; // array contains string
+  let point: {x: number; y:number} = {
+    x: 5;
+    y: 10;
+  }
+  const logNumber: (i: number) => void = (i: number) => {
+    console.log(i);
+  }
+Type interface = typescrpt tries to figure out what type of value a variable refers to
+-----L4
+  const add = (a:number, b: number): number => {
+    return a+b it specifies function will return a number
+  }
 
+  const logger = (message: string): void => {
+    console.log(message)  // void means it not return anything, like undefined or null
 
+  }
+destructuring de {variables}:{variables:type} oluyor
+  const logWeather = ({date,weather}:{date:Date;weather:string;}): void => {
+    console.log.......
+  }
+-----L5
