@@ -1,0 +1,20 @@
+-----L1
+TypeScript = JavaScript + a type system 
+it helps us tp catch errors during development, it uses type annotations to analyze our code
+npm install -g typescript ts-node === typescript compiler
+  tsc --help on terminal
+file extenion is .ts 
+to run ts file=== tsc index.ts in terminal this command is compile to js file then to run write node index.js
+  to combine both command , ts-node index.ts 
+interface defines types of object
+  interface Todo {
+    id:number;
+    title: string;
+    completed: boolean;
+  }
+  const todo = response.data as Todo; olarak belirtiyoruz ki hatalari versin
+
+  function argumentlerinde typeleri belirtebiliriyoruz boylelikle funtioni baska yerde cagirdigimzda argumentlerin yerlerini karistirirsak bize type uyarisi veriyor
+  -----L2
+
+
