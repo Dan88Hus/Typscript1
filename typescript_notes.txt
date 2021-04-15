@@ -84,6 +84,8 @@ Linked List
 sorting project
   tsc --init == tocreate tsconfig.json file
   tsconfig.json file da outDir ve rootDir statemets exist, make it uncomment
+  outDir: ./build
+  rootDir: ./src
     this let us to change root directories
     tsc -w (means watch any change in root directroy, src for us)
       node build/index.js buildin icindeki dosyayi calistirlir ve src/index.ts var
@@ -92,6 +94,8 @@ sorting project
       package.json da "start:build": "tsc -w"
                       "start:run": "nodemon build/index.js"
                       "start":"concurrently npm:start:*"
+-----L13 custom web Framework
+-----L14 Express and TS 
 
 
 
