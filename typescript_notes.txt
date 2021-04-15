@@ -96,6 +96,11 @@ sorting project
                       "start":"concurrently npm:start:*"
 -----L13 custom web Framework
 -----L14 Express and TS 
+npm install @types/express @types/cookies-session @types/body-parser
+  Express does not play nicely with TS 
+-----L15 Decorators
+  
+
 
 
 
