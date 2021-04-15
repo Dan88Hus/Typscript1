@@ -79,7 +79,19 @@ npm install -g parcel-bundler To help us run TS in the browser,
     @types/{packageName} => npm install @types/faker axios has types by default
 
 we dont use export default in TS , we use named export 
-
+-----L10
+Linked List
+sorting project
+  tsc --init == tocreate tsconfig.json file
+  tsconfig.json file da outDir ve rootDir statemets exist, make it uncomment
+    this let us to change root directories
+    tsc -w (means watch any change in root directroy, src for us)
+      node build/index.js buildin icindeki dosyayi calistirlir ve src/index.ts var
+      npm -init
+      npm install nodemon concurrently
+      package.json da "start:build": "tsc -w"
+                      "start:run": "nodemon build/index.js"
+                      "start":"concurrently npm:start:*"
 
 
 
