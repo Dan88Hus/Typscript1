@@ -37,10 +37,50 @@ Type interface = typescrpt tries to figure out what type of value a variable ref
 
   const logger = (message: string): void => {
     console.log(message)  // void means it not return anything, like undefined or null
-
+ 
   }
 destructuring de {variables}:{variables:type} oluyor
   const logWeather = ({date,weather}:{date:Date;weather:string;}): void => {
     console.log.......
   }
 -----L5
+  carMakers.map((car:string): string => {
+    return car;
+  }) ---- carMakers refered as string as well so in this way we can figure out emmit shortcut about methods
+
+  const importantDates: (Date | string)[] = [new Date(), 'dsfsdf']
+-----L6
+Tuple = Array-like structure where each element represents some property of a record
+Tuples are in {key:value} , arrays are in [234,'34edfsv',true]
+
+type Drink = [string,boolean,nummber]; // this does not create an array, just show type annotation
+  this can be used as default type
+
+const pepsi = [string,boolean,number] = ['brown', true, 40] is typed array or
+  const sprite: Drink = ['brown', true, 40 ]
+-----L7
+interfaces + classes = strong code reuse in TS 
+  default types is called interface
+  interface Todo {
+    id:number;
+    title: string;
+    completed: boolean;
+  }
+-----L8
+classes = blueprint to create an object with some fields (values) and 
+  methods (functions) to represent a "thing"
+-----L9
+npm install -g parcel-bundler To help us run TS in the browser, 
+  it let us to compile .ys file in script tag at index.html (file name)
+  but to work in terminal write as parcel index.html 
+
+  npm install faker
+  most popular packages have built in for types file but such as faker does not have
+    @types/{packageName} => npm install @types/faker axios has types by default
+
+we dont use export default in TS , we use named export 
+
+
+
+
+
