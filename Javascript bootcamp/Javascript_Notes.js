@@ -23,3 +23,9 @@
 -----NULL absance of any valaue
 
 -----TERANRY operator condition ? expireTrue : expireFALSE 
+
+-----REF , primitive type variable larda linked degiller ama arrayda ref ler linked , both pointing same referance 
+    objects lerde linked 
+    arrayler de const kullanilmasinin nedeni bu; pointer oldugu icin ref degeri degismez ama icerigi degisebilir. 
+      primitive variable lerde const degismez 
+      
