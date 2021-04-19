@@ -28,4 +28,12 @@
     objects lerde linked 
     arrayler de const kullanilmasinin nedeni bu; pointer oldugu icin ref degeri degismez ama icerigi degisebilir. 
       primitive variable lerde const degismez 
-      
+
+-----OBJECTS {key:value} oldugu icin gruplama yapilabilinir 
+  object python da dictionary deniyor 
+  const kullaniliyor genellikle REF ten dolayi 
+  data order icin ARRAY kullaniyoruz, OBJECT degil 
+  ARRAY ve OBJECT lerde REF olarak atama varsa karsilastirma yapilabilinir ama REF atamassi yoksa yani baska variale a assign edilmemisse karsilastirma yapilamaz
+  
+
+
