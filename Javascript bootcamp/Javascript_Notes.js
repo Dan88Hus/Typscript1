@@ -43,4 +43,34 @@
 -----FUNCTIONS are objects .  
   Higher Order Functions ; functions in an array is HOF for example
   Function i function icerisinde cagirmak ta HOF dir 
+
+-----MAP is mututate the array but foreach does not, map stores in a new array 
+
+----- REDUCE is resulting in a single value by [1,2,3,4].reduce((accumulator,currentValue) => {
+  return accumulator+currentValue;
+  })// 1 +2 = 3 
+    // 3+3 = 6
+    // 6+4 = 10
+  factoriel mantigi gibi dusunebiliriz , 1. arg isimleri degisebilir , mantik hep birinci ile ikinci degerin islem yapilmasina dayaniyor, 1.arg>2. arg gibi
+  return den onceki if sartina bagli 
+  .reduce((a,b)=> { ..... }, 1000) isleme hep 1000 den baslar, argument belirtmeyince 0 dan baslar veya buraya function belirtebiliriz 
+  initial value dur dependency. argument
+
+-----SPREAD , 1st case
+   mesela 4 elementli bir arrayi, herhangi bir functionin argumenti olarak 4 elemanli arrayi cagirirsak, tek elman olarak alacak ama ... spread kullanirsak 4 element function a dagilacak 
+  string i de eger spread olarak function da cagirirsak , dagitacak stringi ,(array elemeti haline getirecek  ...spread)
+  .split metofu gibi 
+
+  2nd case 
+    ARRAY leri birlestirmede kullanibilinir, concat gibi 
+
+  3rd case 
+    OBJECT lerde kullanimi yine baska obji kopyalamada kullanilir , mesela 2 object tede ayni property vrsa ayni olan key ler birbirinin uzerine overwrite yapar 
+    order does matter to kopy because of overwrite of same property 
+
+-----REST , like opposite of spread...it collects values 
+  bir kac variable i array haline cevirir 
   
+
+
+
