@@ -40,4 +40,7 @@
 
 -----FOR .... in objectlerde iterate edilebilinir , objectlerde key:value olarak deger verirken arraylerde index olarak veriyor 
 
-
+-----FUNCTIONS are objects .  
+  Higher Order Functions ; functions in an array is HOF for example
+  Function i function icerisinde cagirmak ta HOF dir 
+  
