@@ -34,6 +34,10 @@
   const kullaniliyor genellikle REF ten dolayi 
   data order icin ARRAY kullaniyoruz, OBJECT degil 
   ARRAY ve OBJECT lerde REF olarak atama varsa karsilastirma yapilabilinir ama REF atamassi yoksa yani baska variale a assign edilmemisse karsilastirma yapilamaz
-  
+
+-----FOR  arraylerde index bazli calisirken , objeclerde key:value oldugundan hangisini iterate edecegini bilmediginden
+  Object.keys(movieReviews) veya Object.value(what variable we want to iterate) diyerek arraya ceviririz values veya keys leri 
+
+-----FOR .... in objectlerde iterate edilebilinir , objectlerde key:value olarak deger verirken arraylerde index olarak veriyor 
 
 
