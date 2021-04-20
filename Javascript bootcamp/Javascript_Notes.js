@@ -70,6 +70,9 @@
 
 -----REST , like opposite of spread...it collects values 
   bir kac variable i array haline cevirir 
+
+-----THIS keyword makes Scope global, it also depends what it refers m yasadigi bolgeyi temsil eder 
+  this in refer ettigi variable i baska function da kullanabilmemizi saglar 
   
 
 
