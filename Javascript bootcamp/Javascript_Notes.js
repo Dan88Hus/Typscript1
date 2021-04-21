@@ -45,7 +45,7 @@
   Function i function icerisinde cagirmak ta HOF dir 
 
 -----MAP is mututate the array but foreach does not, map stores in a new array 
-
+ 
 ----- REDUCE is resulting in a single value by [1,2,3,4].reduce((accumulator,currentValue) => {
   return accumulator+currentValue;
   })// 1 +2 = 3 
@@ -74,6 +74,12 @@
 -----THIS keyword makes Scope global, it also depends what it refers m yasadigi bolgeyi temsil eder 
   this in refer ettigi variable i baska function da kullanabilmemizi saglar 
   
+-----promise chaining .then() ile yapiliyor 
+  axios onune await koymazsak paralllel promise oluyor, await koyarsak sequantial promise deniyor 
+  paralel olunca, alt alta await variable ; olunca sync kodo olarak calisiyor, ama sequential da ard arda komutlar calisiyor, birini bekliyor gerceklesiyor sonra digeri calisiyor 
+
+-----prototypes are template objects, super () key is based on prototypes 
+  __proto__ is referance while prototype is actual templates 
 
 
 
