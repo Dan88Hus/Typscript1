@@ -81,7 +81,12 @@
 -----prototypes are template objects, super () key is based on prototypes 
   __proto__ is referance while prototype is actual templates 
   super () bir baska class tan extends yaparken var olan kopya variablelerin yaninda yeni variable tanimlamamizi saglar 
-  
+
+-----get FUNCTION , get kelimesi function onnune yazilinca , functioni cagirirken () parantez koymamiza gerek yok , set FUNCTION da oyle 
+
+-----Node.js CLI da node inspect index.js debugger i calistilir, inspect debugger flag 
+  process.cwd = current working directory 
+  npm link makes file globally link everywhere (so can be executed anywhere in f.structure)
 
 
 
