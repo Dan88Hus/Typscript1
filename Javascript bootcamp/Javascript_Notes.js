@@ -80,6 +80,8 @@
 
 -----prototypes are template objects, super () key is based on prototypes 
   __proto__ is referance while prototype is actual templates 
+  super () bir baska class tan extends yaparken var olan kopya variablelerin yaninda yeni variable tanimlamamizi saglar 
+  
 
 
 
